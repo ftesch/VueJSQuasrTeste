@@ -14,8 +14,17 @@
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
     <link rel="icon" type="image/ico" href="favicon.ico">
+    <script src='https://statics.teams.cdn.office.net/sdk/v1.6.0/js/MicrosoftTeams.min.js'></script>
   </head>
   <body>
+    <span style="display: none;" id="user"></span>
+    <script>
+      microsoftTeams.initialize();
+      microsoftTeams.getContext((context) => {
+        let userId = document.getElementById('user');
+        userId.innerHTML = context.userPrincipalName;
+      });
+    </script>
     <!-- quasar:entry-point -->
   </body>
 </html>

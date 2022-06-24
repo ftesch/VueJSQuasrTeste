@@ -1,0 +1,19 @@
+<head>
+  <script src='https://statics.teams.cdn.office.net/sdk/v1.6.0/js/MicrosoftTeams.min.js'></script>
+</head>
+
+<body>
+  <script>
+      microsoftTeams.initialize();
+      microsoftTeams.settings.registerOnSaveHandler((saveEvent) => {
+          microsoftTeams.settings.setSettings({
+              websiteUrl: "https://brave-forest-0413a9d10.1.azurestaticapps.net/",
+              contentUrl: "https://brave-forest-0413a9d10.1.azurestaticapps.net/",
+              entityId: "VueJSQuasarTestId",
+              suggestedDisplayName: "VuseSQuasarTest"
+          });
+          saveEvent.notifySuccess();
+      });
+      microsoftTeams.settings.setValidityState(true);
+  </script>
+</body>

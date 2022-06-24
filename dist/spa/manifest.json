@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.7",
+  "version": "1.0.0",
+  "id": "1ba7f7c8-d3ed-4cb2-99a8-86a4801efd80",
+  "packageName": "VusJsQuasarTest",
+  "developer": {
+      "name": "medialesson",
+      "websiteUrl": "https://brave-forest-0413a9d10.1.azurestaticapps.net/",
+      "privacyUrl": "https://brave-forest-0413a9d10.1.azurestaticapps.net/",
+      "termsOfUseUrl": "https://brave-forest-0413a9d10.1.azurestaticapps.net/"
+  },
+  "icons": {
+      "color": "color.png",
+      "outline": "outline.png"
+  },
+  "name": {
+      "short": "VueJsQuasarTest",
+      "full": "VueJsQuasarTest"
+  },
+  "description": {
+      "short": "VueJsQuasarTest",
+      "full": "Um simpls teste de publicação de Aplicação no Teams"
+  },
+  "accentColor": "#FFFFFF",
+  "configurableTabs": [
+      {
+          "configurationUrl": "https://brave-forest-0413a9d10.1.azurestaticapps.net/config.html",
+          "canUpdateConfiguration": true,
+          "scopes": [
+              "team"
+          ]
+      }
+  ],
+  "permissions": [
+      "identity",
+      "messageTeamMembers"
+  ],
+  "validDomains": [
+      "brave-forest-0413a9d10.1.azurestaticapps.net/"
+  ]
+}
