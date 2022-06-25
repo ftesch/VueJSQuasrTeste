@@ -5,14 +5,10 @@
   "id": "1ba7f7c8-d3ed-4cb2-99a8-86a4801efd80",
   "packageName": "VusJsQuasarTest",
   "developer": {
-      "name": "medialesson",
+      "name": "DEXDevelopers",
       "websiteUrl": "https://brave-forest-0413a9d10.1.azurestaticapps.net/",
       "privacyUrl": "https://brave-forest-0413a9d10.1.azurestaticapps.net/",
       "termsOfUseUrl": "https://brave-forest-0413a9d10.1.azurestaticapps.net/"
-  },
-  "icons": {
-      "color": "color.png",
-      "outline": "outline.png"
   },
   "name": {
       "short": "VueJsQuasarTest",
@@ -21,6 +17,10 @@
   "description": {
       "short": "VueJsQuasarTest",
       "full": "Um simpls teste de publicação de Aplicação no Teams"
+  },
+  "icons": {
+      "color": "color.png",
+      "outline": "outline.png"
   },
   "accentColor": "#FFFFFF",
   "configurableTabs": [
@@ -37,6 +37,6 @@
       "messageTeamMembers"
   ],
   "validDomains": [
-      "brave-forest-0413a9d10.1.azurestaticapps.net/"
+      "brave-forest-0413a9d10.1.azurestaticapps.net"
   ]
 }
