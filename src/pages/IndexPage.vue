@@ -5,6 +5,7 @@
       src="~assets/quasar-logo-vertical.svg"
       style="width: 200px; height: 200px"
     >
+    <span>Versão de 25062022 08:31</span>
   </q-page>
 </template>
 
